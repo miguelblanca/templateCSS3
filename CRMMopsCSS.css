@@ -320,7 +320,9 @@
 				}
 
 					 *[id]#MMGContainer{
-						  width:480px !important;
+						  max-width:580px !important;
+        min-width: 320px !important;
+        width: 100% !important;
 						  height:338px !important;
 					 }
 					 
@@ -335,7 +337,6 @@
 					 
 					 *[id]#MMGContainer .hotspotContent {
 						  top:0px;
-						  width:480px !important;
 						  height:338px !important;
 						  background-size: auto 340px !important;
 					 }
